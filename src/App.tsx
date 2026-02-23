@@ -27,7 +27,7 @@ export default function App() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   const [isOnline, setIsOnline] = useState(navigator.onLine);
-  const { isListening, startListening, stopListening, error: speechError } = useSpeechToText(language);
+  const { isListening, startListening, stopListening, error: speechError } = useSpeechToText(language as 'en' | 'hi' | 'ta');
 
   useEffect(() => {
     const handleOnline = () => setIsOnline(true);
@@ -113,12 +113,6 @@ export default function App() {
             </div>
           </button>
 
-          <div className="flex items-center gap-1.5 bg-white/5 rounded-full px-2.5 py-1 md:px-3 md:py-1.5 border border-white/10">
-            <div className={cn("w-1.5 h-1.5 rounded-full", isOnline ? "bg-emerald-500 animate-pulse" : "bg-amber-500")} />
-            <span className="text-[9px] font-bold uppercase tracking-wider text-white/40">
-              {isOnline ? t.cloudSync : t.localMode}
-            </span>
-          </div>
 
           <div className="flex items-center gap-1.5 bg-white/5 rounded-full px-2.5 py-1 md:px-3 md:py-1.5 border border-white/10">
             <Languages size={14} className="text-white/40" />
@@ -225,7 +219,7 @@ export default function App() {
                         <BookOpen size={20} className="text-white/40 group-hover:text-chocolate-400" />
                       </div>
                       <h4 className="font-medium text-sm md:text-base text-white/80 group-hover:text-white line-clamp-2 min-h-[2.5rem]">
-                        {cat[`title_${language}`] || cat.title_en}
+                        {(cat[`title_${language}`] || cat.title_en) as string}
                       </h4>
                       <p className="text-[10px] text-white/20 mt-1 uppercase tracking-wider font-bold">
                         {cat.situations.length} {t.situations}
@@ -410,7 +404,7 @@ export default function App() {
                               <div className="w-full">
                                 <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-amber-400/50 mb-4">{t.action}</p>
                                 <ul className="space-y-3">
-                                  {(situation[`steps_${language}`] || situation.steps_en).map((step: string, i: number) => (
+                                  {((situation[`steps_${language}`] || situation.steps_en) as string[]).map((step: string, i: number) => (
                                     <li key={i} className="flex gap-3 text-sm text-white/80">
                                       <span className="text-amber-400 font-bold">{i + 1}.</span>
                                       <span>{step}</span>
@@ -426,7 +420,7 @@ export default function App() {
                               <div>
                                 <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/30 mb-3">{t.documents}</p>
                                 <div className="flex flex-wrap gap-2">
-                                  {(situation[`documents_required_${language}`] || situation.documents_required_en).map((doc: string, i: number) => (
+                                  {((situation[`documents_required_${language}`] || situation.documents_required_en) as string[]).map((doc: string, i: number) => (
                                     <span key={i} className="text-[11px] bg-white/5 border border-white/10 px-3 py-1 rounded-full text-white/60">
                                       {doc}
                                     </span>
