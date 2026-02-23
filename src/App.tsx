@@ -206,8 +206,14 @@ export default function App() {
               </div>
 
               {/* Categories Grid */}
-              <div className="space-y-6 pt-12">
-                <h3 className="text-xs font-bold uppercase tracking-[0.2em] text-white/30 text-center">{t.categories}</h3>
+              <div className="space-y-8 pt-12 border-t border-white/5">
+                <div className="text-center space-y-2">
+                  <h3 className="text-2xl md:text-3xl font-serif font-medium text-white">{t.categories}</h3>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-chocolate-400">
+                    Exploring 128 Legal Situations
+                  </p>
+                </div>
+
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                   {categories.map((cat) => (
                     <button
@@ -218,7 +224,7 @@ export default function App() {
                       <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center mb-4 group-hover:bg-chocolate-500/10 transition-colors">
                         <BookOpen size={20} className="text-white/40 group-hover:text-chocolate-400" />
                       </div>
-                      <h4 className="font-medium text-sm md:text-base text-white/80 group-hover:text-white">
+                      <h4 className="font-medium text-sm md:text-base text-white/80 group-hover:text-white line-clamp-2 min-h-[2.5rem]">
                         {cat[`title_${language}`] || cat.title_en}
                       </h4>
                       <p className="text-[10px] text-white/20 mt-1 uppercase tracking-wider font-bold">
