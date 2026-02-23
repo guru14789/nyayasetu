@@ -40,7 +40,22 @@ Commonly required legal notice drafts are provided for users to copy and adapt.
 
 ---
 
-## 🛠️ Technical Specifications
+## �️ Browse Categories
+
+The application organizes legal information into intuitive categories to help users find exactly what they need:
+
+- **🏠 Tenant Rights**: Security deposits, evictions, rent receipts, and landlord disputes.
+- **🚓 FIR & Police Process**: Filing FIRs, online complaints, bail, arrest rights, and dealing with police misconduct.
+- **🛡️ Women Safety**: Domestic violence, stalking protection, privacy rights, and self-defense laws.
+- **💼 Labour Rights**: Unpaid salaries, workplace harassment, and fair treatment.
+- **🛍️ Consumer Protection**: Refund for defective products and unfair trade practices.
+- **🚦 Traffic & Citizenship**: Traffic police rights, RTI filing, and fundamental duties.
+- **📜 Fundamental Rights**: Freedom of speech, right to education, and constitutional protections.
+- **⚖️ Additional Protections**: Free legal aid, privacy rights, and victim protection.
+
+---
+
+## �🛠️ Technical Specifications
 
 | Spec | Implementation |
 | :--- | :--- |
