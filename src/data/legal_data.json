@@ -1,0 +1,1546 @@
+{
+    "categories": [
+        {
+            "id": "tenant_rights",
+            "title_en": "Tenant Rights",
+            "title_hi": "किरायेदार अधिकार",
+            "title_ta": "வாடகையாளர் உரிமைகள்",
+            "situations": [
+                {
+                    "id": "deposit_not_returned",
+                    "title_en": "Landlord not returning security deposit",
+                    "title_hi": "मकान मालिक द्वारा सुरक्षा राशि वापस न करना",
+                    "title_ta": "வீட்டு உரிமையாளர் டெபாசிட் திருப்பி தராதது",
+                    "summary_en": "If a landlord refuses to return your security deposit without valid reason, you can demand it legally.",
+                    "legal_basis_en": "Indian Contract Act, 1872",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Check rental agreement terms",
+                        "Send written notice requesting refund",
+                        "Keep proof of payment",
+                        "Approach civil court if unresolved"
+                    ],
+                    "documents_required_en": [
+                        "Rental agreement",
+                        "Payment proof",
+                        "Communication records"
+                    ],
+                    "authority_en": "Civil Court or Consumer Forum",
+                    "notice_template_en": "Subject: Request for Refund of Security Deposit\n\nI request the return of my security deposit as per rental agreement.",
+                    "confidence_note_en": "General guidance. Consult a lawyer for complex disputes.",
+                    "keywords": [
+                        "security deposit",
+                        "deposit refund",
+                        "landlord dispute"
+                    ]
+                },
+                {
+                    "id": "forced_eviction",
+                    "title_en": "Forced eviction without notice",
+                    "title_hi": "बिना नोटिस के बेदखली",
+                    "title_ta": "முன் அறிவிப்பு இன்றி வெளியேற்றம்",
+                    "summary_en": "A tenant cannot be evicted without due legal process.",
+                    "legal_basis_en": "Article 21 & State Rent Control Acts",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Check eviction clause",
+                        "Demand written notice",
+                        "File police complaint if forced",
+                        "Approach civil court"
+                    ],
+                    "documents_required_en": [
+                        "Rental agreement"
+                    ],
+                    "authority_en": "Police & Civil Court",
+                    "notice_template_en": "Forced eviction without notice is illegal. Kindly follow lawful procedure.",
+                    "confidence_note_en": "Verify state-specific rent law.",
+                    "keywords": [
+                        "forced eviction",
+                        "illegal eviction",
+                        "eviction notice"
+                    ]
+                },
+                {
+                    "id": "rent_increase_without_notice",
+                    "title_en": "Rent increased without notice",
+                    "title_hi": "बिना नोटिस के किराया वृद्धि",
+                    "title_ta": "அறிவிப்பு இன்றி வாடகை உயர்வு",
+                    "summary_en": "Landlord cannot arbitrarily increase rent without proper notice as per agreement or rent control laws.",
+                    "legal_basis_en": "State Rent Control Acts",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Check rent escalation clause",
+                        "Demand written justification",
+                        "Send legal notice",
+                        "Approach Rent Controller"
+                    ],
+                    "documents_required_en": [
+                        "Rental agreement"
+                    ],
+                    "authority_en": "Rent Controller",
+                    "notice_template_en": "Subject: Objection to Rent Increase Without Proper Notice\n\nI am writing to formally object to the rent increase as it was not provided with the mandatory notice period specified in our agreement/law.",
+                    "confidence_note_en": "Check local rent control laws for the required notice period (usually 30-90 days).",
+                    "keywords": [
+                        "rent hike",
+                        "increase rent",
+                        "rent dispute"
+                    ]
+                },
+                {
+                    "id": "utility_disconnection",
+                    "title_en": "Landlord disconnected electricity or water",
+                    "title_hi": "बिजली या पानी का कनेक्शन काटना",
+                    "title_ta": "மின்சாரம் அல்லது குடிநீர் இணைப்பு துண்டிப்பு",
+                    "summary_en": "Essential services cannot be cut to force eviction.",
+                    "legal_basis_en": "State Rent Control Acts",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Document disconnection",
+                        "File police complaint",
+                        "Approach Rent Controller"
+                    ],
+                    "documents_required_en": [
+                        "Rental agreement"
+                    ],
+                    "authority_en": "Police & Rent Controller",
+                    "notice_template_en": "Subject: Urgent: Illegal Disconnection of Essential Services\n\nCutting off essential services like electricity/water is illegal under the Rent Control Act. Please restore them immediately to avoid legal action.",
+                    "confidence_note_en": "Essential services cannot be disconnected even for non-payment of rent without a court order in many states.",
+                    "keywords": [
+                        "electricity cut",
+                        "water cut",
+                        "landlord harassment"
+                    ]
+                },
+                {
+                    "id": "landlord_entry_without_permission",
+                    "title_en": "Landlord entering without consent",
+                    "title_hi": "बिना अनुमति के मकान मालिक का प्रवेश",
+                    "title_ta": "அனுமதியின்றி வீட்டு உரிமையாளர் நுழைதல்",
+                    "summary_en": "Landlord must give notice before entering rented premises.",
+                    "legal_basis_en": "Contract Law Principles",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Review agreement clause",
+                        "Send written warning",
+                        "File complaint if repeated"
+                    ],
+                    "documents_required_en": [
+                        "Rental agreement"
+                    ],
+                    "authority_en": "Civil Court",
+                    "notice_template_en": "Subject: Notice Regarding Unauthorized Entry into Leased Premises\n\nPlease provide prior notice as per our agreement before entering the premises to respect my right to privacy.",
+                    "confidence_note_en": "Most agreements require 24-48 hours notice for inspections or repairs.",
+                    "keywords": [
+                        "privacy",
+                        "landlord entry"
+                    ]
+                },
+                {
+                    "id": "refusal_to_provide_receipt",
+                    "title_en": "Landlord refusing rent receipt",
+                    "title_hi": "किराया रसीद देने से इनकार",
+                    "title_ta": "வாடகை ரசீது வழங்க மறுப்பு",
+                    "summary_en": "Tenant has right to receive payment acknowledgment.",
+                    "legal_basis_en": "Rent Control Laws",
+                    "urgency_level": "Low",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Request written receipt",
+                        "Pay via bank transfer",
+                        "Maintain proof"
+                    ],
+                    "documents_required_en": [
+                        "Bank transfer proof"
+                    ],
+                    "authority_en": "Rent Controller",
+                    "notice_template_en": "Subject: Request for Rent Payment Receipt\n\nAs per law, I am entitled to a receipt for the rent paid. Please provide receipts for the last payment(s).",
+                    "confidence_note_en": "Always pay through bank transfer if the landlord refuses to give receipts.",
+                    "keywords": [
+                        "rent receipt",
+                        "payment proof"
+                    ]
+                },
+                {
+                    "id": "lockout_by_landlord",
+                    "title_en": "Landlord locking tenant out",
+                    "title_hi": "मकान मालिक द्वारा तालाबंदी",
+                    "title_ta": "வீட்டு உரிமையாளர் பூட்டுதல்",
+                    "summary_en": "Forcible lockout without court order is illegal.",
+                    "legal_basis_en": "IPC 441 & 442",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Call police immediately",
+                        "Document situation",
+                        "File complaint"
+                    ],
+                    "documents_required_en": [
+                        "Rental agreement"
+                    ],
+                    "authority_en": "Police",
+                    "notice_template_en": "Subject: Illegal Lockout and Denial of Access\n\nForcibly locking me out of my rented residence is a criminal act. I demand immediate access.",
+                    "confidence_note_en": "Locking out a tenant without a court-ordered eviction is an illegal 'self-help' measure.",
+                    "keywords": [
+                        "lockout",
+                        "illegal eviction"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fir_process",
+            "title_en": "FIR Process",
+            "title_hi": "एफआईआर प्रक्रिया",
+            "title_ta": "FIR செயல்முறை",
+            "situations": [
+                {
+                    "id": "fir_refusal",
+                    "title_en": "Police refusing to register FIR",
+                    "title_hi": "एफआईआर दर्ज करने से मना करना",
+                    "title_ta": "FIR பதிவு செய்ய மறுப்பு",
+                    "summary_en": "Police must register FIR for cognizable offences.",
+                    "legal_basis_en": "Section 154 CrPC",
+                    "urgency_level": "High",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Submit written complaint",
+                        "Escalate to Superintendent of Police",
+                        "Approach Magistrate"
+                    ],
+                    "documents_required_en": [
+                        "Complaint copy"
+                    ],
+                    "authority_en": "Superintendent of Police / Magistrate",
+                    "notice_template_en": "Request to register FIR under Section 154 CrPC.",
+                    "confidence_note_en": "Serious crimes require immediate escalation.",
+                    "keywords": [
+                        "FIR refusal",
+                        "police refusal",
+                        "register FIR"
+                    ]
+                },
+                {
+                    "id": "delayed_fir_copy",
+                    "title_en": "Police not giving FIR copy",
+                    "title_hi": "एफआईआर की कॉपी न मिलना",
+                    "title_ta": "FIR நகல் வழங்கப்படாமை",
+                    "summary_en": "Victim has right to receive FIR copy free of cost.",
+                    "legal_basis_en": "Section 154 CrPC",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Submit written request",
+                        "Escalate to SP"
+                    ],
+                    "documents_required_en": [
+                        "Complaint acknowledgment"
+                    ],
+                    "authority_en": "Superintendent of Police",
+                    "notice_template_en": "Subject: Request for Free Copy of FIR under Section 154(2) CrPC\n\nI am the complainant/victim in FIR No [Number]. I request you to provide a copy of the FIR free of cost as mandated by law.",
+                    "confidence_note_en": "The police are legally obligated to provide one copy of the FIR free of cost to the complainant immediately.",
+                    "keywords": [
+                        "FIR copy",
+                        "police delay"
+                    ]
+                },
+                {
+                    "id": "police_refusing_complaint",
+                    "title_en": "Police refusing to take complaint",
+                    "title_hi": "शिकायत लेने से पुलिस का इनकार",
+                    "title_ta": "புகார் எடுக்க காவல்துறை மறுப்பு",
+                    "summary_en": "Police must record information of cognizable offences.",
+                    "legal_basis_en": "Section 154 CrPC",
+                    "urgency_level": "High",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Submit complaint in writing",
+                        "Send by registered post to SP",
+                        "Approach Magistrate under 156(3)"
+                    ],
+                    "documents_required_en": [
+                        "Written complaint"
+                    ],
+                    "authority_en": "Magistrate",
+                    "notice_template_en": "Subject: Formal Complaint Regarding Incident on [Date]\n\nI am submitting this written complaint as the oral complaint was not recorded at the station. Requesting immediate registration.",
+                    "confidence_note_en": "If a station refuses, you can send the complaint to the SP via registered post.",
+                    "keywords": [
+                        "refuse FIR",
+                        "complaint refusal"
+                    ]
+                },
+                {
+                    "id": "illegal_arrest_without_warrant",
+                    "title_en": "Arrest without warrant unlawfully",
+                    "title_hi": "बिना वारंट के अवैध गिरफ्तारी",
+                    "title_ta": "வாரண்ட் இன்றி சட்டவிரோத கைது",
+                    "summary_en": "Arrest must follow CrPC guidelines.",
+                    "legal_basis_en": "Sections 41 & 50 CrPC",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Demand grounds of arrest",
+                        "Inform family",
+                        "Seek lawyer"
+                    ],
+                    "documents_required_en": [
+                        "Arrest memo"
+                    ],
+                    "authority_en": "High Court",
+                    "notice_template_en": "Subject: Urgent Notice Regarding Unlawful Arrest of [Name]\n\nThe arrest of [Name] on [Date] was conducted without a warrant and without informing the grounds of arrest, violating CrPC Section 50.",
+                    "confidence_note_en": "Police can only arrest without a warrant for cognizable offences and must follow D.K. Basu guidelines.",
+                    "keywords": [
+                        "illegal arrest"
+                    ]
+                },
+                {
+                    "id": "custodial_violence",
+                    "title_en": "Custodial violence",
+                    "title_hi": "हिरासत में हिंसा",
+                    "title_ta": "காவல் வன்முறை",
+                    "summary_en": "Police brutality is punishable.",
+                    "legal_basis_en": "IPC 330 & 331",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Seek medical exam",
+                        "File complaint with NHRC",
+                        "Approach court"
+                    ],
+                    "documents_required_en": [
+                        "Medical report"
+                    ],
+                    "authority_en": "NHRC",
+                    "notice_template_en": "Subject: Complaint Regarding Custodial Torture of [Name]\n\n[Name] has been subjected to physical violence while in police custody. Requesting immediate medical examination and inquiry.",
+                    "confidence_note_en": "Custodial violence is a grave violation of human rights. Always demand a medical check-up before production to a magistrate.",
+                    "keywords": [
+                        "police torture"
+                    ]
+                },
+                {
+                    "id": "threatening_by_police",
+                    "title_en": "Police threatening without basis",
+                    "title_hi": "पुलिस द्वारा धमकी",
+                    "title_ta": "போலீசாரின் மிரட்டல்",
+                    "summary_en": "Police cannot intimidate without legal cause.",
+                    "legal_basis_en": "Constitutional safeguards",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Record interaction",
+                        "File complaint to SP"
+                    ],
+                    "documents_required_en": [
+                        "Audio or witness"
+                    ],
+                    "authority_en": "Superintendent of Police",
+                    "notice_template_en": "Subject: Complaint Against Officer [Name/Badge] for Intimidation\n\nI am being subjected to illegal threats and intimidation by the mentioned officer without any legal basis.",
+                    "confidence_note_en": "Try to record audio or gather witnesses as evidence of threats.",
+                    "keywords": [
+                        "police harassment"
+                    ]
+                },
+                {
+                    "id": "zero_fir_request",
+                    "title_en": "Request for Zero FIR registration",
+                    "title_hi": "जीरो एफआईआर का अनुरोध",
+                    "title_ta": "ஜீரோ FIR கோரிக்கை",
+                    "summary_en": "Police must register FIR regardless of jurisdiction in cognizable offences.",
+                    "legal_basis_en": "Section 154 CrPC; Article 21 Constitution of India",
+                    "urgency_level": "High",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Insist on Zero FIR",
+                        "Provide written complaint",
+                        "Escalate to SP if refused"
+                    ],
+                    "documents_required_en": [
+                        "Written complaint copy"
+                    ],
+                    "authority_en": "Station House Officer / SP",
+                    "notice_template_en": "Subject: Request to Register Zero FIR for Cognizable Offence\n\nAs the incident occurred outside this jurisdiction, I request you to register a Zero FIR and transfer it to the concerned station.",
+                    "confidence_note_en": "A Zero FIR can be filed at ANY police station regardless of where the crime happened.",
+                    "keywords": [
+                        "zero FIR",
+                        "jurisdiction refusal"
+                    ]
+                },
+                {
+                    "id": "e_fir_online",
+                    "title_en": "Filing FIR online",
+                    "title_hi": "ऑनलाइन एफआईआर दर्ज करना",
+                    "title_ta": "ஆன்லைன் FIR பதிவு",
+                    "summary_en": "Certain states allow e-FIR for specific offences.",
+                    "legal_basis_en": "State Police Rules; Section 154 CrPC",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Visit state police portal",
+                        "Submit complaint online",
+                        "Download acknowledgment"
+                    ],
+                    "documents_required_en": [
+                        "Identity proof"
+                    ],
+                    "authority_en": "State Police Cyber Portal",
+                    "notice_template_en": "N/A (Filing is done through portal forms)",
+                    "confidence_note_en": "E-FIR is usually available for non-heinous crimes like vehicle theft or lost documents in specific states.",
+                    "keywords": [
+                        "online FIR",
+                        "e-FIR"
+                    ]
+                },
+                {
+                    "id": "non_cognizable_offence",
+                    "title_en": "Police refusing to act in non-cognizable offence",
+                    "title_hi": "असंज्ञेय अपराध में कार्रवाई से इनकार",
+                    "title_ta": "பிணையில் வர முடியாத குற்றத்தில் நடவடிக்கை மறுப்பு",
+                    "summary_en": "Police must record NC complaint and refer to Magistrate.",
+                    "legal_basis_en": "Section 155 CrPC",
+                    "urgency_level": "Low",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Request NC entry",
+                        "Approach Magistrate under Section 200 CrPC"
+                    ],
+                    "documents_required_en": [
+                        "Complaint copy"
+                    ],
+                    "authority_en": "Magistrate Court",
+                    "notice_template_en": "Subject: Filing of Non-Cognizable Report (NCR)\n\nPlease record the information regarding the incident as an NCR under Section 155 CrPC.",
+                    "confidence_note_en": "For NC offences, police cannot investigate or arrest without a Magistrate's order.",
+                    "keywords": [
+                        "non cognizable",
+                        "NC complaint"
+                    ]
+                },
+                {
+                    "id": "delay_in_investigation",
+                    "title_en": "Delay in FIR investigation",
+                    "title_hi": "एफआईआर जांच में देरी",
+                    "title_ta": "FIR விசாரணையில் தாமதம்",
+                    "summary_en": "Investigation must be fair and timely.",
+                    "legal_basis_en": "Article 21 Constitution of India; Section 173 CrPC",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Submit reminder to IO",
+                        "Complain to SP",
+                        "File petition in High Court under Article 226"
+                    ],
+                    "documents_required_en": [
+                        "FIR copy"
+                    ],
+                    "authority_en": "Superintendent of Police / High Court",
+                    "notice_template_en": "Subject: Inquiry Regarding Status of Investigation in FIR No [Number]\n\nIt has been [Time] since the FIR was filed. Requesting an update on the progress of the investigation.",
+                    "confidence_note_en": "Investigation should ideally be completed within 60-90 days depending on the severity of the crime.",
+                    "keywords": [
+                        "investigation delay"
+                    ]
+                },
+                {
+                    "id": "self_incrimination_violation",
+                    "title_en": "Policed forced confession or statement",
+                    "title_hi": "खुद के खिलाफ गवाही देने के लिए मजबूर करना",
+                    "title_ta": "தனக்கு எதிராக சாட்சியமளிக்க கட்டாயப்படுத்துதல்",
+                    "summary_en": "An accused cannot be forced to give testimony against themselves.",
+                    "legal_basis_en": "Article 20(3) Constitution of India",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Inform the Magistrate immediately during production",
+                        "Refuse to sign any forced statement or blank papers",
+                        "Demand presence of a lawyer during interrogation"
+                    ],
+                    "documents_required_en": [
+                        "Medical report (if physical force used)",
+                        "Witness details if any"
+                    ],
+                    "authority_en": "Magistrate Court / High Court",
+                    "notice_template_en": "Subject: Complaint Regarding Forced Statement under Article 20(3)\n\nI was compelled to give a statement against my will by the police. I formally retract any such statement as it violates my constitutional protection.",
+                    "confidence_note_en": "Any confession made to a police officer is not admissible as evidence in court under Section 25 of the Evidence Act.",
+                    "keywords": [
+                        "forced confession",
+                        "self incrimination",
+                        "police pressure"
+                    ]
+                },
+                {
+                    "id": "closure_report_without_notice",
+                    "title_en": "Police filed closure report without informing complainant",
+                    "title_hi": "बिना सूचना के क्लोजर रिपोर्ट",
+                    "title_ta": "அறிவிப்பு இன்றி வழக்கு முடிப்பு அறிக்கை",
+                    "summary_en": "Complainant must be informed before acceptance of closure.",
+                    "legal_basis_en": "Section 173 CrPC; Article 21",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Obtain copy of closure report",
+                        "File protest petition before Magistrate"
+                    ],
+                    "documents_required_en": [
+                        "FIR copy"
+                    ],
+                    "authority_en": "Magistrate Court",
+                    "notice_template_en": "Subject: Objection to Closure Report in FIR No [Number]\n\nI have learned that a closure report was filed without notice to me. I intend to file a protest petition.",
+                    "confidence_note_en": "The Magistrate MUST hear the complainant before accepting a police closure report.",
+                    "keywords": [
+                        "closure report"
+                    ]
+                },
+                {
+                    "id": "false_fir_against_person",
+                    "title_en": "False FIR filed against you",
+                    "title_hi": "झूठी एफआईआर",
+                    "title_ta": "பொய் FIR",
+                    "summary_en": "False complaints can be challenged legally.",
+                    "legal_basis_en": "Section 482 CrPC; Article 226 Constitution",
+                    "urgency_level": "High",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Apply for anticipatory bail",
+                        "File quashing petition in High Court"
+                    ],
+                    "documents_required_en": [
+                        "FIR copy"
+                    ],
+                    "authority_en": "High Court",
+                    "notice_template_en": "Subject: Notice for Quashing of False FIR No [Number]\n\nThe FIR filed against me is malicious and based on false allegations. Legal action will be taken for defamation.",
+                    "confidence_note_en": "High Courts have the power to quash FIRs if they are clearly frivolous under Section 482 CrPC.",
+                    "keywords": [
+                        "false FIR",
+                        "quash FIR"
+                    ]
+                },
+                {
+                    "id": "anticipatory_bail",
+                    "title_en": "Applying for anticipatory bail",
+                    "title_hi": "अग्रिम जमानत के लिए आवेदन",
+                    "title_ta": "முன்னெச்சரிக்கை ஜாமீன் விண்ணப்பம்",
+                    "summary_en": "Person fearing arrest can seek anticipatory bail.",
+                    "legal_basis_en": "Section 438 CrPC",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Engage lawyer",
+                        "File application before Sessions Court or High Court"
+                    ],
+                    "documents_required_en": [
+                        "FIR copy"
+                    ],
+                    "authority_en": "Sessions Court / High Court",
+                    "notice_template_en": "Subject: Application for Anticipatory Bail under Section 438 CrPC\n\nFearing arrest in FIR No [Number] based on false accusations, I am seeking protection by the court.",
+                    "confidence_note_en": "Anticipatory bail is a pre-arrest legal shield. Once granted, the person cannot be kept in custody if arrested.",
+                    "keywords": [
+                        "anticipatory bail"
+                    ]
+                },
+                {
+                    "id": "regular_bail",
+                    "title_en": "Applying for regular bail",
+                    "title_hi": "नियमित जमानत के लिए आवेदन",
+                    "title_ta": "வழக்கமான ஜாமீன் விண்ணப்பம்",
+                    "summary_en": "Arrested person can seek bail depending on offence.",
+                    "legal_basis_en": "Section 437 & 439 CrPC",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "File bail application",
+                        "Attend hearing"
+                    ],
+                    "documents_required_en": [
+                        "Arrest memo"
+                    ],
+                    "authority_en": "Sessions Court",
+                    "notice_template_en": "Subject: Application for Regular Bail\n\nThe accused [Name] has been in custody for [Days]. We request bail as the investigation is ongoing/complete.",
+                    "confidence_note_en": "Bail, not jail, is the general rule unless the offence is very serious or there's a flight risk.",
+                    "keywords": [
+                        "regular bail"
+                    ]
+                },
+                {
+                    "id": "right_to_lawyer",
+                    "title_en": "Right to consult lawyer after arrest",
+                    "title_hi": "वकील से परामर्श का अधिकार",
+                    "title_ta": "வக்கீலை ஆலோசிக்கும் உரிமை",
+                    "summary_en": "Arrested person has right to legal representation.",
+                    "legal_basis_en": "Article 22(1) Constitution of India",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Demand lawyer access",
+                        "Inform family"
+                    ],
+                    "documents_required_en": [
+                        "Arrest memo"
+                    ],
+                    "authority_en": "Magistrate Court",
+                    "notice_template_en": "Subject: Request for Access to Legal Counsel\n\nI demand my constitutional right to consult and be defended by a legal practitioner of my choice.",
+                    "confidence_note_en": "An arrested person has the right to meet their lawyer during interrogation, though not throughout the entire process.",
+                    "keywords": [
+                        "legal representation"
+                    ]
+                },
+                {
+                    "id": "production_before_magistrate",
+                    "title_en": "Not produced before Magistrate within 24 hours",
+                    "title_hi": "२४ घंटे के भीतर मजिस्ट्रेट के सामने पेश न करना",
+                    "title_ta": "24 மணி நேரத்திற்குள் நீதிபதி முன் ஆஜர்படுத்தாமை",
+                    "summary_en": "Arrested person must be produced within 24 hours.",
+                    "legal_basis_en": "Article 22(2) Constitution of India; Section 57 CrPC",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "File habeas corpus petition",
+                        "Inform lawyer immediately"
+                    ],
+                    "documents_required_en": [
+                        "Arrest details"
+                    ],
+                    "authority_en": "High Court",
+                    "notice_template_en": "Subject: Illegal Detention Beyond 24 Hours\n\n[Name] was arrested on [Time] and has not been produced before a magistrate, violating Article 22(2).",
+                    "confidence_note_en": "This is a serious violation. Travel time is excluded from the 24-hour calculation.",
+                    "keywords": [
+                        "24 hours rule"
+                    ]
+                },
+                {
+                    "id": "fir_for_missing_person",
+                    "title_en": "FIR for missing person",
+                    "title_hi": "गुमशुदा व्यक्ति के लिए एफआईआर",
+                    "title_ta": "காணாமல் போன நபருக்கான FIR",
+                    "summary_en": "Police must register missing complaint immediately.",
+                    "legal_basis_en": "Section 154 CrPC; Article 21",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "File written complaint",
+                        "Provide photo and ID proof"
+                    ],
+                    "documents_required_en": [
+                        "Photograph"
+                    ],
+                    "authority_en": "Police Station",
+                    "notice_template_en": "Subject: Complaint for Missing Person [Name]\n\nMy [Relation], [Name], has been missing since [Date]. Requesting immediate registration of complaint and search.",
+                    "confidence_note_en": "If it's a child or woman, police often register it as kidnapping (cognizable) immediately.",
+                    "keywords": [
+                        "missing person"
+                    ]
+                },
+                {
+                    "id": "fir_for_kidnapping",
+                    "title_en": "FIR for kidnapping",
+                    "title_hi": "अपहरण के लिए एफआईआर",
+                    "title_ta": "கடத்தலுக்கான FIR",
+                    "summary_en": "Kidnapping is cognizable offence requiring immediate FIR.",
+                    "legal_basis_en": "IPC 363; Section 154 CrPC",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Report immediately",
+                        "Provide suspect details"
+                    ],
+                    "documents_required_en": [
+                        "Identity proof"
+                    ],
+                    "authority_en": "Police",
+                    "notice_template_en": "Subject: Complaint Regarding Kidnapping of [Name]\n\n[Name] has been forcibly taken by [Suspect Details/Unknown]. Requesting immediate FIR and action.",
+                    "confidence_note_en": "Kidnapping is a very serious cognizable offence. Police must act instantly.",
+                    "keywords": [
+                        "kidnapping FIR"
+                    ]
+                },
+                {
+                    "id": "fir_delay_explanation",
+                    "title_en": "Delay in filing FIR",
+                    "title_hi": "एफआईआर दर्ज करने में देरी का स्पष्टीकरण",
+                    "title_ta": "FIR பதிவு செய்வதில் தாமதத்திற்கான விளக்கம்",
+                    "summary_en": "Delay does not automatically invalidate complaint.",
+                    "legal_basis_en": "Judicial precedents; Article 21",
+                    "urgency_level": "Low",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Explain delay in complaint"
+                    ],
+                    "documents_required_en": [
+                        "Supporting proof"
+                    ],
+                    "authority_en": "Police",
+                    "notice_template_en": "The delay in filing this FIR was due to [Reason: e.g., fear, medical treatment, ignorance of law].",
+                    "confidence_note_en": "A genuine explanation for delay is usually accepted by courts and does not weaken the case.",
+                    "keywords": [
+                        "delay FIR"
+                    ]
+                },
+                {
+                    "id": "fir_copy_denied",
+                    "title_en": "FIR copy denied",
+                    "title_hi": "एफआईआर कॉपी देने से मना करना",
+                    "title_ta": "FIR நகல் மறுப்பு",
+                    "summary_en": "Complainant must receive FIR copy free.",
+                    "legal_basis_en": "Section 154(2) CrPC",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Demand certified copy",
+                        "Escalate to SP"
+                    ],
+                    "documents_required_en": [
+                        "Complaint proof"
+                    ],
+                    "authority_en": "Superintendent of Police",
+                    "notice_template_en": "Subject: Non-receipt of FIR Copy\n\nDespite registration of FIR No [Number], the copy has been denied. Requesting urgent issuance.",
+                    "confidence_note_en": "The right to a free copy of the FIR is statutory.",
+                    "keywords": [
+                        "FIR copy refusal"
+                    ]
+                },
+                {
+                    "id": "refusal_to_add_sections",
+                    "title_en": "Police refusing to add relevant sections",
+                    "title_hi": "प्रासंगिक धाराओं को जोड़ने से इनकार",
+                    "title_ta": "சம்பந்தப்பட்ட பிரிவுகளைச் சேர்க்க மறுப்பு",
+                    "summary_en": "Incorrect sections can be challenged.",
+                    "legal_basis_en": "Section 173 CrPC",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Submit written representation",
+                        "Approach Magistrate"
+                    ],
+                    "documents_required_en": [
+                        "FIR copy"
+                    ],
+                    "authority_en": "Magistrate",
+                    "notice_template_en": "Subject: Request to Add Relevant IPC Sections to FIR No [Number]\n\nThe current FIR does not reflect the gravity of the incident. Requesting addition of Section [Numbers].",
+                    "confidence_note_en": "You can file a petition before the Magistrate to direct the police to add correct sections.",
+                    "keywords": [
+                        "wrong sections FIR"
+                    ]
+                },
+                {
+                    "id": "fir_in_domestic_violence",
+                    "title_en": "FIR in domestic violence case",
+                    "title_hi": "घरेलू हिंसा के मामले में एफआईआर",
+                    "title_ta": "குடும்ப வன்முறை வழக்கில் FIR",
+                    "summary_en": "Domestic violence offences must be registered.",
+                    "legal_basis_en": "IPC 498A; Domestic Violence Act 2005",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "File complaint",
+                        "Seek protection order"
+                    ],
+                    "documents_required_en": [
+                        "Medical proof"
+                    ],
+                    "authority_en": "Police / Magistrate",
+                    "notice_template_en": "Subject: Complaint of Domestic Violence under IPC 498A\n\nI am being subjected to cruelty and harassment by [Names]. Requesting immediate registration.",
+                    "confidence_note_en": "IPC 498A is cognizable and non-bailable.",
+                    "keywords": [
+                        "domestic violence FIR"
+                    ]
+                },
+                {
+                    "id": "fir_for_road_accident",
+                    "title_en": "FIR in road accident",
+                    "title_hi": "सड़क दुर्घटना में एफआईआर",
+                    "title_ta": "சாலை விபத்தில் FIR",
+                    "summary_en": "Serious accidents require FIR registration.",
+                    "legal_basis_en": "IPC 279; Motor Vehicles Act",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Report accident",
+                        "Collect witness details"
+                    ],
+                    "documents_required_en": [
+                        "Vehicle details"
+                    ],
+                    "authority_en": "Traffic Police",
+                    "notice_template_en": "Subject: Complaint Regarding Road Accident involving Vehicle [Number]\n\nAn accident occurred at [Location] on [Date]. Requesting FIR for insurance and legal purposes.",
+                    "confidence_note_en": "An FIR is crucial for claiming compensation in Motor Accident Claims Tribunal (MACT).",
+                    "keywords": [
+                        "accident FIR"
+                    ]
+                },
+                {
+                    "id": "fir_for_theft",
+                    "title_en": "FIR for theft",
+                    "title_hi": "चोरी के लिए एफआईआर",
+                    "title_ta": "திருட்டிற்கான FIR",
+                    "summary_en": "Theft complaints must be registered.",
+                    "legal_basis_en": "IPC 379; Section 154 CrPC",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Provide theft details",
+                        "Submit proof of ownership"
+                    ],
+                    "documents_required_en": [
+                        "Ownership proof"
+                    ],
+                    "authority_en": "Police",
+                    "notice_template_en": "Subject: Complaint Regarding Theft at [Location]\n\nValuables including [Items] were stolen on [Date]. Requesting investigation.",
+                    "confidence_note_en": "List all stolen items accurately in the FIR.",
+                    "keywords": [
+                        "theft FIR"
+                    ]
+                },
+                {
+                    "id": "fir_for_cheating",
+                    "title_en": "FIR for cheating",
+                    "title_hi": "धोखाधड़ी के लिए एफआईआर",
+                    "title_ta": "ஏமாற்று வேலைக்கான FIR",
+                    "summary_en": "Cheating is cognizable offence.",
+                    "legal_basis_en": "IPC 420",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "File written complaint",
+                        "Attach transaction proof"
+                    ],
+                    "documents_required_en": [
+                        "Transaction records"
+                    ],
+                    "authority_en": "Police",
+                    "notice_template_en": "Subject: Complaint of Cheating and Fraud by [Name]\n\nI have been defrauded of [Amount/Property] by [Method]. Requesting FIR under IPC 420.",
+                    "confidence_note_en": "Documentary evidence of the cheating (chats, bank transfers) is vital.",
+                    "keywords": [
+                        "cheating FIR"
+                    ]
+                },
+                {
+                    "id": "fir_for_assault",
+                    "title_en": "FIR for physical assault",
+                    "title_hi": "शारीरिक हमले के लिए एफआईआर",
+                    "title_ta": "தாக்குதலுக்கான FIR",
+                    "summary_en": "Assault complaints must be registered.",
+                    "legal_basis_en": "IPC 323; Article 21",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Seek medical exam",
+                        "File complaint"
+                    ],
+                    "documents_required_en": [
+                        "Medical certificate"
+                    ],
+                    "authority_en": "Police",
+                    "notice_template_en": "Subject: Complaint of Physical Assault on [Name]\n\nI was attacked by [Names] on [Date] at [Location]. Requesting immediate FIR and medical exam.",
+                    "confidence_note_en": "The medical report (MLC) is the most critical evidence in assault cases.",
+                    "keywords": [
+                        "assault FIR"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "women_safety",
+            "title_en": "Women Safety",
+            "title_hi": "महिला सुरक्षा",
+            "title_ta": "பெண்கள் பாதுகாப்பு",
+            "situations": [
+                {
+                    "id": "domestic_violence",
+                    "title_en": "Domestic violence",
+                    "title_hi": "घरेलू हिंसा",
+                    "title_ta": "குடும்ப வன்முறை",
+                    "summary_en": "Women have protection from physical, emotional and financial abuse.",
+                    "legal_basis_en": "Protection of Women from Domestic Violence Act, 2005",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Call emergency helpline 112",
+                        "File complaint",
+                        "Seek protection order"
+                    ],
+                    "documents_required_en": [
+                        "Medical records if available"
+                    ],
+                    "authority_en": "Police & Magistrate Court",
+                    "notice_template_en": "Request protection under Domestic Violence Act.",
+                    "confidence_note_en": "Use emergency services in immediate danger.",
+                    "keywords": [
+                        "domestic violence",
+                        "abuse",
+                        "protection order"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "labour_rights",
+            "title_en": "Labour Rights",
+            "title_hi": "श्रम अधिकार",
+            "title_ta": "தொழிலாளர் உரிமைகள்",
+            "situations": [
+                {
+                    "id": "salary_not_paid",
+                    "title_en": "Salary not paid on time",
+                    "title_hi": "वेतन न मिलना",
+                    "title_ta": "சம்பளம் வழங்காதது",
+                    "summary_en": "Employer must pay wages on time.",
+                    "legal_basis_en": "Payment of Wages Act, 1936",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Send written demand",
+                        "File complaint with labour officer",
+                        "Approach labour court"
+                    ],
+                    "documents_required_en": [
+                        "Employment proof"
+                    ],
+                    "authority_en": "Labour Commissioner",
+                    "notice_template_en": "Request for pending wages.",
+                    "confidence_note_en": "Keep salary slips.",
+                    "keywords": [
+                        "salary delay",
+                        "unpaid wages",
+                        "wage dispute"
+                    ]
+                },
+                {
+                    "id": "street_vendor_rights",
+                    "title_en": "Street vendor harassment",
+                    "title_hi": "स्ट्रीट वेंडर अधिकार (रेहड़ी-पटरी वाले)",
+                    "title_ta": "தெரு வியாபாரிகள் உரிமைகள்",
+                    "summary_en": "Vendors have the right to carry on trade and are protected from arbitrary eviction.",
+                    "legal_basis_en": "Article 19(1)(g) Constitution of India; Street Vendors Act 2014",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Show Certificate of Vending (COV)",
+                        "Ensure registration with Town Vending Committee",
+                        "Report illegal seizure of goods by municipal staff"
+                    ],
+                    "documents_required_en": [
+                        "Certificate of Vending",
+                        "ID proof"
+                    ],
+                    "authority_en": "Town Vending Committee / Municipal Commissioner",
+                    "notice_template_en": "Subject: Representation against Unauthorized Eviction of Street Vendor\n\nI am a registered vendor with a valid COV. My eviction is in violation of the Street Vendors Act 2014.",
+                    "confidence_note_en": "Municipal authorities cannot evict vendors until a survey is completed and COVs are issued.",
+                    "keywords": [
+                        "street vendor",
+                        "hawkers",
+                        "municipal harassment"
+                    ]
+                },
+                {
+                    "id": "forced_labour_exploitation",
+                    "title_en": "Protection against forced labour (Begar)",
+                    "title_hi": "बंधुआ मजदूर और जबरन श्रम",
+                    "title_ta": "கட்டாய உழைப்பு மற்றும் கொத்தடிமை முறை",
+                    "summary_en": "Traffic in human beings and forced labour are prohibited crimes.",
+                    "legal_basis_en": "Article 23 Constitution of India; Bonded Labour System Act",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Report to the District Magistrate immediately",
+                        "Verify that any debt claimed by employer is legally void",
+                        "Apply for rehabilitation grant"
+                    ],
+                    "documents_required_en": [
+                        "Proof of work",
+                        "Witness accounts"
+                    ],
+                    "authority_en": "District Magistrate / Local Police",
+                    "notice_template_en": "Subject: Complaint Regarding Forced Labour under Article 23\n\nI/We are being held against our will and forced to work without lawful wages or under debt bondage at [Location].",
+                    "confidence_note_en": "Bonded labour is a non-bailable offence. The DM has a summary power to release victims.",
+                    "keywords": [
+                        "forced labour",
+                        "bonded labour",
+                        "human trafficking"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "consumer_rights",
+            "title_en": "Consumer Rights",
+            "title_hi": "उपभोक्ता अधिकार",
+            "title_ta": "நுகர்வோர் உரிமைகள்",
+            "situations": [
+                {
+                    "id": "defective_product",
+                    "title_en": "Defective product received",
+                    "title_hi": "खराब उत्पाद",
+                    "title_ta": "கேடான பொருள்",
+                    "summary_en": "Consumers can demand replacement or refund.",
+                    "legal_basis_en": "Consumer Protection Act, 2019",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Contact seller",
+                        "File consumer complaint",
+                        "Approach consumer court"
+                    ],
+                    "documents_required_en": [
+                        "Invoice"
+                    ],
+                    "authority_en": "Consumer Court",
+                    "notice_template_en": "Complaint for defective product under Consumer Protection Act.",
+                    "confidence_note_en": "File within limitation period.",
+                    "keywords": [
+                        "defective product",
+                        "refund",
+                        "consumer complaint"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "property_rights",
+            "title_en": "Property Rights",
+            "title_hi": "संपत्ति अधिकार",
+            "title_ta": "சொத்து உரிமைகள்",
+            "situations": [
+                {
+                    "id": "illegal_property_possession",
+                    "title_en": "Illegal property occupation",
+                    "title_hi": "संपत्ति पर अवैध कब्जा",
+                    "title_ta": "சொத்து சட்டவிரோத ஆக்கிரமிப்பு",
+                    "summary_en": "If someone occupies your property without consent, it is unlawful possession.",
+                    "legal_basis_en": "Indian Penal Code Section 441, 447",
+                    "urgency_level": "High",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Collect ownership documents",
+                        "Send legal notice",
+                        "File police complaint for trespass",
+                        "File civil suit for eviction"
+                    ],
+                    "documents_required_en": [
+                        "Property title deed",
+                        "Tax receipts"
+                    ],
+                    "authority_en": "Police & Civil Court",
+                    "notice_template_en": "Notice regarding illegal occupation of property.",
+                    "confidence_note_en": "Immediate action advised to avoid adverse possession.",
+                    "keywords": [
+                        "illegal possession",
+                        "trespass",
+                        "property dispute"
+                    ]
+                },
+                {
+                    "id": "illegal_demolition_notice",
+                    "title_en": "Illegal demolition of property",
+                    "title_hi": "अवैध डिमोलिशन (बिना नोटिस के घर गिराना)",
+                    "title_ta": "சட்டவிரோத இடிப்பு",
+                    "summary_en": "The state cannot demolish any property without following the due process of law and providing reasonable notice.",
+                    "legal_basis_en": "Article 300A Constitution of India; Municipal Acts",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Demand a written show-cause notice",
+                        "File an urgent stay petition in Civil Court or High Court",
+                        "Verify if the property is on the master plan"
+                    ],
+                    "documents_required_en": [
+                        "Property ownership documents",
+                        "Sanctioned plan",
+                        "Electricity/Tax bills"
+                    ],
+                    "authority_en": "High Court / Civil Court",
+                    "notice_template_en": "Subject: Urgent Notice to Stop Unauthorized Demolition\n\nNo prior notice or opportunity to be heard was provided before initiating demolition at [Address], violating Article 300A.",
+                    "confidence_note_en": "Supreme Court has ruled that 'Bulldozer justice' without notice is unconstitutional.",
+                    "keywords": [
+                        "demolition",
+                        "property rights",
+                        "illegal eviction"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "financial_fraud",
+            "title_en": "Financial Fraud",
+            "title_hi": "वित्तीय धोखाधड़ी",
+            "title_ta": "நிதி மோசடி",
+            "situations": [
+                {
+                    "id": "online_fraud",
+                    "title_en": "Online fraud or UPI scam",
+                    "title_hi": "ऑनलाइन धोखाधड़ी या यूपीआई घोटाला",
+                    "title_ta": "ஆன்லைன் மோசடி அல்லது UPI மோசடி",
+                    "summary_en": "Victims of digital payment fraud can seek recovery and file complaint.",
+                    "legal_basis_en": "IT Act 2000 & IPC 420",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Call 1930 immediately",
+                        "File complaint at cybercrime.gov.in",
+                        "Inform bank",
+                        "Preserve transaction details"
+                    ],
+                    "documents_required_en": [
+                        "Transaction ID",
+                        "Bank statement"
+                    ],
+                    "authority_en": "Cyber Crime Police",
+                    "notice_template_en": "Complaint regarding online fraud transaction.",
+                    "confidence_note_en": "Immediate reporting increases fund recovery chances.",
+                    "keywords": [
+                        "UPI scam",
+                        "online fraud",
+                        "digital fraud"
+                    ]
+                },
+                {
+                    "id": "loan_recovery_harassment",
+                    "title_en": "Loan recovery harassment",
+                    "title_hi": "ऋण वसूली उत्पीड़न",
+                    "title_ta": "கடன் வசூல் துன்புறுத்தல்",
+                    "summary_en": "Recovery agents cannot threaten or harass borrowers.",
+                    "legal_basis_en": "RBI Fair Practices Code",
+                    "urgency_level": "High",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Record evidence",
+                        "Complain to bank nodal officer",
+                        "Escalate to Banking Ombudsman"
+                    ],
+                    "documents_required_en": [
+                        "Loan agreement"
+                    ],
+                    "authority_en": "RBI Ombudsman",
+                    "notice_template_en": "Complaint regarding harassment by recovery agent.",
+                    "confidence_note_en": "Threats are illegal.",
+                    "keywords": [
+                        "loan harassment",
+                        "recovery agent",
+                        "bank complaint"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "workplace_rights",
+            "title_en": "Workplace Rights",
+            "title_hi": "कार्यस्थल अधिकार",
+            "title_ta": "பணியிட உரிமைகள்",
+            "situations": [
+                {
+                    "id": "sexual_harassment_workplace",
+                    "title_en": "Sexual harassment at workplace",
+                    "title_hi": "कार्यस्थल पर यौन उत्पीड़न",
+                    "title_ta": "பணியிடத்தில் பாலியல் துன்புறுத்தல்",
+                    "summary_en": "Workplace sexual harassment is punishable and must be addressed by Internal Complaints Committee.",
+                    "legal_basis_en": "POSH Act 2013",
+                    "urgency_level": "High",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Submit written complaint within 3 months",
+                        "Approach Internal Complaints Committee",
+                        "Escalate to District Officer if ICC absent"
+                    ],
+                    "documents_required_en": [
+                        "Incident details",
+                        "Witness statements"
+                    ],
+                    "authority_en": "Internal Complaints Committee / District Officer",
+                    "notice_template_en": "Complaint under POSH Act for workplace harassment.",
+                    "confidence_note_en": "Time-bound complaint process.",
+                    "keywords": [
+                        "POSH",
+                        "sexual harassment",
+                        "workplace"
+                    ]
+                },
+                {
+                    "id": "maternity_relief",
+                    "title_en": "Maternity relief and benefits",
+                    "title_hi": "प्रसूति सहायता और लाभ",
+                    "title_ta": "மகப்பேறு நிவாரணம் மற்றும் நன்மைகள்",
+                    "summary_en": "Woman employees are entitled to maternity leave and benefits under just and humane conditions.",
+                    "legal_basis_en": "Article 42 Constitution of India; Maternity Benefit Act 1961",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Notify employer in writing",
+                        "Apply for leave with medical certificate",
+                        "Claim maternity benefits"
+                    ],
+                    "documents_required_en": [
+                        "Medical certificate",
+                        "Employment proof"
+                    ],
+                    "authority_en": "Labour Department / Employer ICC",
+                    "notice_template_en": "Subject: Application for Maternity Leave under Maternity Benefit Act\n\nI am applying for maternity leave starting from [Date] for a period of [Weeks]. I request the benefits as per the Act.",
+                    "confidence_note_en": "Employer cannot fire a woman for being pregnant or taking maternity leave.",
+                    "keywords": [
+                        "maternity leave",
+                        "pregnancy benefits"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "senior_citizen_rights",
+            "title_en": "Senior Citizen Rights",
+            "title_hi": "वरिष्ठ नागरिक अधिकार",
+            "title_ta": "முதியோர் உரிமைகள்",
+            "situations": [
+                {
+                    "id": "senior_citizen_neglect",
+                    "title_en": "Senior citizen abandoned by children",
+                    "title_hi": "बच्चों द्वारा वरिष्ठ नागरिक की उपेक्षा",
+                    "title_ta": "பிள்ளைகளால் முதியோர் கைவிடப்படல்",
+                    "summary_en": "Senior citizens can claim maintenance from children.",
+                    "legal_basis_en": "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "File application before Maintenance Tribunal",
+                        "Submit age proof",
+                        "Seek monthly maintenance order"
+                    ],
+                    "documents_required_en": [
+                        "Age proof",
+                        "Relationship proof"
+                    ],
+                    "authority_en": "Maintenance Tribunal",
+                    "notice_template_en": "Application seeking maintenance under Senior Citizens Act.",
+                    "confidence_note_en": "Fast-track tribunal process available.",
+                    "keywords": [
+                        "senior citizen",
+                        "maintenance",
+                        "elderly rights"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "detention_rights",
+            "title_en": "Detention Rights",
+            "title_hi": "हिरासत अधिकार",
+            "title_ta": "காவல் உரிமைகள்",
+            "situations": [
+                {
+                    "id": "illegal_detention",
+                    "title_en": "Illegal detention by police",
+                    "title_hi": "पुलिस द्वारा अवैध हिरासत",
+                    "title_ta": "போலீசாரின் சட்டவிரோத காவல்",
+                    "summary_en": "Police cannot detain a person without lawful procedure.",
+                    "legal_basis_en": "Article 22 Constitution of India",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Demand reason for arrest",
+                        "Contact lawyer",
+                        "File habeas corpus petition"
+                    ],
+                    "documents_required_en": [
+                        "Witness details"
+                    ],
+                    "authority_en": "High Court",
+                    "notice_template_en": "Petition against unlawful detention.",
+                    "confidence_note_en": "Immediate legal action required.",
+                    "keywords": [
+                        "illegal detention",
+                        "unlawful arrest",
+                        "habeas corpus"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cyber_crime",
+            "title_en": "Cyber Crime",
+            "title_hi": "साइबर अपराध",
+            "title_ta": "கணினி குற்றம்",
+            "situations": [
+                {
+                    "id": "social_media_impersonation",
+                    "title_en": "Fake social media account",
+                    "title_hi": "सोशल मीडिया पहचान चोरी",
+                    "title_ta": "சமூக ஊடக ஆள்மாறாட்டம்",
+                    "summary_en": "Creating fake profiles is punishable.",
+                    "legal_basis_en": "IT Act Section 66D",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Report platform",
+                        "File cyber complaint"
+                    ],
+                    "documents_required_en": [
+                        "Profile link"
+                    ],
+                    "authority_en": "Cyber Crime Police",
+                    "notice_template_en": "Subject: Reporting of Impersonation Profile [Link]\n\nThe mentioned profile is using my photos and name without consent to mislead people. Please take it down.",
+                    "confidence_note_en": "Impersonation is a crime under Section 66D of the IT Act.",
+                    "keywords": [
+                        "fake profile"
+                    ]
+                },
+                {
+                    "id": "revenge_porn",
+                    "title_en": "Sharing private images without consent",
+                    "title_hi": "बिना सहमति के निजी चित्र साझा करना",
+                    "title_ta": "அனுமதியின்றி தனிப்பட்ட படங்களை பகிர்தல்",
+                    "summary_en": "Publishing intimate images without consent is criminal.",
+                    "legal_basis_en": "IT Act & IPC 354C",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Preserve evidence",
+                        "File cyber complaint immediately"
+                    ],
+                    "documents_required_en": [
+                        "Screenshots"
+                    ],
+                    "authority_en": "Cyber Crime Police",
+                    "notice_template_en": "Subject: Urgent: Request to Remove Non-Consensual Intimate Image\n\nA private image of me is being circulated on your platform without my consent. This is a violation of IPC 354C and IT Act.",
+                    "confidence_note_en": "Law mandates intermediaries to remove such content within 24 hours of reporting.",
+                    "keywords": [
+                        "private photo leak"
+                    ]
+                },
+                {
+                    "id": "otp_scam",
+                    "title_en": "OTP fraud",
+                    "title_hi": "ओटीपी धोखाधड़ी",
+                    "title_ta": "OTP மோசடி",
+                    "summary_en": "Sharing OTP leading to fraud can be reported.",
+                    "legal_basis_en": "IPC 420",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "Call 1930",
+                        "Inform bank"
+                    ],
+                    "documents_required_en": [
+                        "Transaction details"
+                    ],
+                    "authority_en": "Cyber Crime Cell",
+                    "notice_template_en": "Subject: Reporting of Unauthorized Transaction via OTP Fraud\n\nI was deceived into sharing an OTP, resulting in an unauthorized debit of [Amount] from my bank account.",
+                    "confidence_note_en": "If reported within 3 days, your liability for the loss may be zero as per RBI guidelines.",
+                    "keywords": [
+                        "OTP scam"
+                    ]
+                },
+                {
+                    "id": "online_stalking",
+                    "title_en": "Online stalking",
+                    "title_hi": "ऑनलाइन पीछा करना/स्टाकिंग",
+                    "title_ta": "ஆன்லைன் பின்தொடர்தல்",
+                    "summary_en": "Repeated online harassment is punishable.",
+                    "legal_basis_en": "IPC 354D",
+                    "urgency_level": "High",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Block user",
+                        "File complaint"
+                    ],
+                    "documents_required_en": [
+                        "Chat logs"
+                    ],
+                    "authority_en": "Police",
+                    "notice_template_en": "Subject: Complaint Regarding Persistent Online Stalking and Harassment\n\nI am being repeatedly harassed and followed online by [User/Handle] despite clear requests to stop.",
+                    "confidence_note_en": "Section 354D IPC Specifically covers stalking, including digital means.",
+                    "keywords": [
+                        "cyber stalking"
+                    ]
+                },
+                {
+                    "id": "data_breach",
+                    "title_en": "Personal data leaked",
+                    "title_hi": "व्यक्तिगत डेटा लीक",
+                    "title_ta": "தனிப்பட்ட தரவு கசிவு",
+                    "summary_en": "Unauthorized data sharing can be challenged.",
+                    "legal_basis_en": "IT Act 2000",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Notify company",
+                        "File complaint"
+                    ],
+                    "documents_required_en": [
+                        "Proof of breach"
+                    ],
+                    "authority_en": "Cyber Cell",
+                    "notice_template_en": "Subject: Notice Concerning Breach of My Personal Data\n\nMy personal data held by your organization has been leaked. Requesting details on the extent of the breach and steps taken for mitigation.",
+                    "confidence_note_en": "Companies have a legal obligation to protect sensitive personal data under the IT Rules 2011.",
+                    "keywords": [
+                        "data leak"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fundamental_rights",
+            "title_en": "Fundamental Rights",
+            "title_hi": "मौलिक अधिकार",
+            "title_ta": "அடிப்படை உரிமைகள்",
+            "situations": [
+                {
+                    "id": "discrimination_protection",
+                    "title_en": "Protection against discrimination",
+                    "title_hi": "भेदभाव के खिलाफ संरक्षण",
+                    "title_ta": "பாகுபாட்டிற்கு எதிரான பாதுகாப்பு",
+                    "summary_en": "State cannot discriminate on grounds of religion, race, caste, sex, or place of birth.",
+                    "legal_basis_en": "Article 15 Constitution of India",
+                    "urgency_level": "High",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Document instances of discrimination",
+                        "File complaint with relevant Commission (SC/ST/Women)",
+                        "Writ petition in High Court or Supreme Court"
+                    ],
+                    "documents_required_en": [
+                        "Evidence of discrimination",
+                        "Identity proof"
+                    ],
+                    "authority_en": "National Commissions / High Court",
+                    "notice_template_en": "Subject: Complaint Regarding Discrimination under Article 15\n\nI am being subjected to discrimination at [Place/Institution] on the basis of [Caste/Sex/Religion]. This is a violation of my fundamental rights.",
+                    "confidence_note_en": "Article 15 specially empowers the state to make special provisions for women and children.",
+                    "keywords": [
+                        "discrimination",
+                        "equality",
+                        "untouchability"
+                    ]
+                },
+                {
+                    "id": "untouchability_violation",
+                    "title_en": "Abolition of Untouchability violation",
+                    "title_hi": "अस्पृश्यता उन्मूलन का उल्लंघन",
+                    "title_ta": "தீண்டாமை ஒழிப்பு மீறல்",
+                    "summary_en": "Untouchability is abolished and its practice in any form is forbidden.",
+                    "legal_basis_en": "Article 17 Constitution of India; Protection of Civil Rights Act",
+                    "urgency_level": "High",
+                    "is_emergency": true,
+                    "steps_en": [
+                        "File FIR immediately",
+                        "Contact specialized SC/ST cell",
+                        "Report to District Magistrate"
+                    ],
+                    "documents_required_en": [
+                        "Witness details",
+                        "Incident details"
+                    ],
+                    "authority_en": "Police / SC/ST Commission",
+                    "notice_template_en": "Subject: FIR for Practice of Untouchability under Article 17\n\nI am reporting an incident of untouchability practiced against me at [Location] on [Date].",
+                    "confidence_note_en": "Article 17 is absolute and has no exceptions.",
+                    "keywords": [
+                        "untouchability",
+                        "caste discrimination"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "education_rights",
+            "title_en": "Education Rights",
+            "title_hi": "शिक्षा का अधिकार",
+            "title_ta": "கல்வி உரிமைகள்",
+            "situations": [
+                {
+                    "id": "denial_of_admission_rte",
+                    "title_en": "Denial of free and compulsory education",
+                    "title_hi": "मुफ्त और अनिवार्य शिक्षा से इनकार",
+                    "title_ta": "இலவச மற்றும் கட்டாயக் கல்வி மறுப்பு",
+                    "summary_en": "Children aged 6-14 have right to free and compulsory education.",
+                    "legal_basis_en": "Article 21A Constitution of India; RTE Act 2009",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Apply to local government school",
+                        "Complaint to School Management Committee",
+                        "Approach District Education Officer"
+                    ],
+                    "documents_required_en": [
+                        "Age proof of child",
+                        "Address proof"
+                    ],
+                    "authority_en": "District Education Department",
+                    "notice_template_en": "Subject: Request for Admission under Right to Education Act\n\nMy child [Name], aged [Age], is being denied admission. As per Article 21A, it is their fundamental right to receive free education.",
+                    "confidence_note_en": "No child can be held back, expelled, or required to pass a board examination until completion of elementary education.",
+                    "keywords": [
+                        "RTE",
+                        "child education",
+                        "free school"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "legal_aid_services",
+            "title_en": "Legal Aid Services",
+            "title_hi": "कानूनी सहायता सेवाएं",
+            "title_ta": "சட்ட உதவி சேவைகள்",
+            "situations": [
+                {
+                    "id": "request_free_legal_aid",
+                    "title_en": "Request for free legal aid",
+                    "title_hi": "मुफ्त कानूनी सहायता के लिए अनुरोध",
+                    "title_ta": "இலவச சட்ட உதவிக்கான கோரிக்கை",
+                    "summary_en": "Eligible citizens can get free legal services to ensure justice is not denied due to economic disabilities.",
+                    "legal_basis_en": "Article 39A Constitution of India; Legal Services Authorities Act",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Approach District Legal Services Authority (DLSA)",
+                        "Fill application for legal aid",
+                        "Provide income certificate if required"
+                    ],
+                    "documents_required_en": [
+                        "Income certificate",
+                        "Caste certificate (if applicable)",
+                        "Legal papers of the case"
+                    ],
+                    "authority_en": "DLSA / SLSA / NALSA",
+                    "notice_template_en": "Subject: Application for Free Legal Aid under Article 39A\n\nI am unable to afford a lawyer for my case [Case Details]. I request the state to provide legal assistance.",
+                    "confidence_note_en": "Women, children, SC/ST members, and victims of disasters are entitled to free legal aid regardless of income.",
+                    "keywords": [
+                        "free lawyer",
+                        "legal aid",
+                        "NALSA"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "environmental_rights",
+            "title_en": "Environmental Rights",
+            "title_hi": "पर्यावरण अधिकार",
+            "title_ta": "சுற்றுச்சூழல் உரிமைகள்",
+            "situations": [
+                {
+                    "id": "industrial_pollution_report",
+                    "title_en": "Industrial pollution in residential area",
+                    "title_hi": "आवासीय क्षेत्र में औद्योगिक प्रदूषण",
+                    "title_ta": "குடியிருப்பு பகுதியில் தொழிற்சாலை மாசுபாடு",
+                    "summary_en": "Citizens have a right to a clean environment, and industries must comply with air and water safety norms.",
+                    "legal_basis_en": "Article 21 (Right to Life); Article 48A Constitution of India",
+                    "urgency_level": "Medium",
+                    "is_emergency": false,
+                    "steps_en": [
+                        "Collect samples/photos of the pollution",
+                        "File complaint with State Pollution Control Board",
+                        "Approach National Green Tribunal (NGT) if no action is taken"
+                    ],
+                    "documents_required_en": [
+                        "Photographic evidence",
+                        "Medical records of affected residents"
+                    ],
+                    "authority_en": "Pollution Control Board / NGT",
+                    "notice_template_en": "Subject: Complaint against Illegal Pollution by [Industry Name]\n\nThe mentioned industry is releasing untreated waste into [Water/Air], causing health issues to residents and violating Article 21.",
+                    "confidence_note_en": "The NGT has the power to order immediate closure and heavy compensation for environmental damage.",
+                    "keywords": [
+                        "pollution",
+                        "environment",
+                        "NGT",
+                        "clean air"
+                    ]
+                }
+            ]
+        }
+    ]
+}

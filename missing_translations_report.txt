@@ -1,0 +1,13 @@
+Missing Translations Report for legal_data_v2.json
+
+This report lists, for each situation, the fields and languages that are missing or empty for the following keys:
+- title
+- summary
+- legal_basis
+- steps
+- authority
+- documents_required
+
+---
+
+[Report will be appended here after analysis.]
