@@ -40,22 +40,25 @@ Commonly required legal notice drafts are provided for users to copy and adapt.
 
 ---
 
-## �️ Browse Categories
+## 🗂️ Browse Categories (128 Situations)
 
-The application organizes legal information into intuitive categories to help users find exactly what they need:
+The application organizes **128 legal situations** into intuitive categories:
 
-- **🏠 Tenant Rights**: Security deposits, evictions, rent receipts, and landlord disputes.
-- **🚓 FIR & Police Process**: Filing FIRs, online complaints, bail, arrest rights, and dealing with police misconduct.
-- **🛡️ Women Safety**: Domestic violence, stalking protection, privacy rights, and self-defense laws.
-- **💼 Labour Rights**: Unpaid salaries, workplace harassment, and fair treatment.
-- **🛍️ Consumer Protection**: Refund for defective products and unfair trade practices.
-- **🚦 Traffic & Citizenship**: Traffic police rights, RTI filing, and fundamental duties.
-- **📜 Fundamental Rights**: Freedom of speech, right to education, and constitutional protections.
-- **⚖️ Additional Protections**: Free legal aid, privacy rights, and victim protection.
+- **🏠 Tenant Rights (7)**: Security deposits, evictions, rent receipts, and landlord disputes.
+- **🚓 FIR & Police Process (27)**: Filing FIRs, online complaints, bail, arrest rights, and dealing with police misconduct.
+- **🛡️ Women Safety (11)**: Domestic violence, stalking protection, privacy rights, and self-defense laws.
+- **💼 Labour & Workplace Rights (14)**: Unpaid salaries, workplace harassment, fair treatment, and minimum wages.
+- **🛍️ Consumer Rights & Protection (2)**: Refund for defective products and unfair trade practices.
+- **� Fundamental Rights (16)**: Freedom of speech, right to education, and constitutional protections.
+- **� Senior Citizen Rights (9)**: Protection from abandonment, health care, pension, and legal aid.
+- **💻 Cyber Crime (5)**: Social media fraud, OTP scams, and online stalking.
+- **🚦 Traffic & RTI (2)**: Traffic police rights and RTI filing.
+- **🏛️ Directive Principles & Duties (20)**: Village panchayats, uniform civil code, and fundamental duties.
+- **⚖️ Additional Protections (15)**: Financial fraud, property rights, legal aid, and victim protection.
 
 ---
 
-## �🛠️ Technical Specifications
+## 🛠️ Technical Specifications
 
 | Spec | Implementation |
 | :--- | :--- |
