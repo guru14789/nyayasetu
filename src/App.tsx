@@ -404,7 +404,7 @@ export default function App() {
                               <div className="w-full">
                                 <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-amber-400/50 mb-4">{t.action}</p>
                                 <ul className="space-y-3">
-                                  {((situation[`steps_${language}`] || situation.steps_en) as string[]).map((step: string, i: number) => (
+                                  {(((situation[`steps_${language}`] || situation.steps_en) as string[]) || []).map((step: string, i: number) => (
                                     <li key={i} className="flex gap-3 text-sm text-white/80">
                                       <span className="text-amber-400 font-bold">{i + 1}.</span>
                                       <span>{step}</span>
@@ -420,7 +420,7 @@ export default function App() {
                               <div>
                                 <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/30 mb-3">{t.documents}</p>
                                 <div className="flex flex-wrap gap-2">
-                                  {((situation[`documents_required_${language}`] || situation.documents_required_en) as string[]).map((doc: string, i: number) => (
+                                  {(((situation[`documents_required_${language}`] || situation.documents_required_en) as string[]) || []).map((doc: string, i: number) => (
                                     <span key={i} className="text-[11px] bg-white/5 border border-white/10 px-3 py-1 rounded-full text-white/60">
                                       {doc}
                                     </span>
