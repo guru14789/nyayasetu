@@ -510,7 +510,7 @@ export default function App() {
       </main>
 
       <footer className="py-12 text-center text-[10px] font-bold uppercase tracking-[0.2em] text-white/10">
-        &copy; 2026 NyayaSetu • Built for the People • Powered by Vibe Legal Data
+        &copy; 2026 NyayaSetu • Simplified Legal Awareness for Citizens
       </footer>
     </div >
   );
